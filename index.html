@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/style.css">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+</head>
+
+<body>
+  <section id="dashboard-container">
+
+    <!-- CARDS -->
+
+    <!-- OWNER -->
+    <section id="owner" class="user card-section">
+        <div id="owner-header">
+          <img id="owner-img" src="/images/image-jeremy.png" alt="">
+          <div class="owner-name">
+            <h4>Report for :</h4>
+          <h2>Jeremy Robson</h2>
+          </div>
+        </div>
+        <div class="options">
+          <button id="daily-btn" class="opt-btn">Daily</button>
+          <button id="weekly-btn" class="opt-btn">Weekly</button>
+          <button id="monthly-btn" class="opt-btn">Monthly</button>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section id="work" class="card-section">
+        <div class="card-background">
+          <img src="/images/icon-work.svg" alt="" class="icon">
+        </div>
+        <div class="card-information">
+          <header class="card-header">
+            <h2>Work</h2>
+            <a href="#"><img src="/images/icon-ellipsis.svg" alt=""></a>
+          </header>
+          <div class="hours-displays">
+            <h2 class="time-frame" id="work-hours">0</h2>
+            <p class="time-duration">Last Week - <span class="previous-hours" id="prev-work-hours">0</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PLAY -->
+      <section id="play" class="card-section">
+        <div class="card-background">
+          <img src="/images/icon-play.svg" alt="" class="icon">
+        </div>
+        <div class="card-information">
+          <header class="card-header">
+            <h2>Play</h2>
+            <a href="#"><img src="/images/icon-ellipsis.svg" alt=""></a>
+          </header>
+          <div class="hours-displays">
+            <h2 class="time-frame" id="play-hours">0</h2>
+            <p class="time-duration">Last Week - <span class="previous-hours" id="prev-play-hours">0</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- STUDY -->
+      <section id="study" class="card-section"> 
+        <div class="card-background">
+          <img src="/images/icon-study.svg" alt="" class="icon">
+        </div>
+        <div class="card-information">
+          <header class="card-header">
+            <h2>Study</h2>
+            <a href="#"><img src="/images/icon-ellipsis.svg" alt=""></a>
+          </header>
+          <div class="hours-displays">
+            <h2 class="time-frame" id="study-hours">0</h2>
+            <p class="time-duration">Last Week - <span class="previous-hours" id="prev-study-hours">0</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXERCISE -->
+      <section id="exercise" class="card-section">
+        <div class="card-background">
+          <img src="/images/icon-exercise.svg" alt="" class="icon">
+        </div>
+        <div class="card-information">
+          <header class="card-header">
+            <h2>Exercise</h2>
+            <a href="#"><img src="/images/icon-ellipsis.svg" alt=""></a>
+          </header>
+          <div class="hours-displays">
+            <h2 class="time-frame" id="exercise-hours">0</h2>
+            <p class="time-duration">Last Week - <span class="previous-hours" id="prev-exercise-hours">0</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOCIAL -->
+      <section id="social" class="card-section">
+        <div class="card-background">
+          <img src="/images/icon-social.svg" alt="" class="icon">
+        </div>
+        <div class="card-information">
+          <header class="card-header">
+            <h2>Social</h2>
+            <a href="#"><img src="/images/icon-ellipsis.svg" alt=""></a>
+          </header>
+          <div class="hours-displays">
+            <h2 class="time-frame" id="social-hours">0</h2>
+            <p class="time-duration">Last Week - <span class="previous-hours" id="prev-social-hours">0</span></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SELF CARE -->
+      <section id="self-care" class="card-section">
+        <div class="card-background">
+          <img src="/images/icon-self-care.svg" alt="" class="icon">
+        </div>
+        <div class="card-information">
+          <header class="card-header">
+            <h2>Self Care</h2>
+            <a href="#"><img src="/images/icon-ellipsis.svg" alt=""></a>
+          </header>
+          <div class="hours-displays">
+            <h2 class="time-frame" id="selfCare-hours">0</h2>
+            <p class="time-duration">Last Week - <span class="previous-hours" id="prev-selfCare-hours">0</span></p>
+          </div>
+        </div>
+      </section>
+
+  </section>
+
+  <script src="./src/app.js"></script>
+</body>
+
+</html>
