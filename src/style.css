@@ -166,7 +166,7 @@ body {
 }
 
 .card-information:hover {
-    background: var(--desat-blue);
+    background: hsl(235, 33%, 50%);
 }
 
 .icon {
